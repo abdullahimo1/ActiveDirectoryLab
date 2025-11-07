@@ -25,7 +25,7 @@ The goal of the lab is to simulate a realistic corporate environment for user au
 <h2>Program walk-through:</h2>
 
 <p>
-<b>🧩 AD Installation</b><br/>
+<b> AD Installation</b><br/>
 This screenshot displays the <b>Server Manager – Add Roles and Features Wizard</b>, where the 
 <b>Active Directory Domain Services (AD DS)</b> role is being installed. 
 This installation is a key step in transforming the Windows Server into a <b>Domain Controller</b>, 
@@ -33,6 +33,7 @@ enabling centralized authentication, user management, and domain-wide policy con
 </p>
 <p align="center">
   <img src="https://i.imgur.com/WYDdXxU.png" alt="Active Directory Installation" width="80%" height="80%">
+  <img src="https://i.imgur.com/fEyGyic.jpeg" alt="Active Directory Installation" width="80%" height="80%">
 </p>
 
 <p>
