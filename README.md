@@ -28,8 +28,7 @@ The goal of the lab is to simulate a realistic corporate environment for user au
 <b> AD Installation</b><br/>
 This screenshot displays the <b>Server Manager – Add Roles and Features Wizard</b>, where the 
 <b>Active Directory Domain Services (AD DS)</b> role is being installed. 
-This installation is a key step in transforming the Windows Server into a <b>Domain Controller</b>, 
-enabling centralized authentication, user management, and domain-wide policy control.
+The following screenshot shows the Windows Server 2019 Domain Controller login screen, displaying the domain name MOHAMED. The prompt MOHAMED\Administrator confirms that the server has been successfully promoted to a domain controller and the Active Directory domain (mohamed.com) is operational.
 </p>
 <p align="center">
   <img src="https://i.imgur.com/WYDdXxU.png" alt="Active Directory Installation" width="80%" height="80%">
@@ -55,18 +54,17 @@ This is crucial for enabling internal communication between the domain controlle
 </p>
 
 <p>
-<b>PowerShell User Creation Scriptn</b><br/>
+<b>PowerShell User Creation Script</b><br/>
 This PowerShell ISE script automates the creation of user accounts in Active Directory.
 </p>
 <p align="center">
   <img src="https://i.imgur.com/xD0z22M.png" alt="Active Directory Installation" width="80%" height="80%">
 </p>
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+
+<p>
+<b>Client Domain Connection & Internet Access</b><br/>
+This screenshot Shows a Windows 10 client that has successfully joined the domain (mohamed.com) and received its IP configuration via DHCP from the DC. The client’s IP (172.16.0.100), gateway (172.16.0.1), and DNS confirm domain connectivity — with internet access enabled through the server’s NAT routing.
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/O2etD4j.png" alt="Active Directory Installation" width="80%" height="80%">
+</p>
