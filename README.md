@@ -31,8 +31,8 @@ This screenshot displays the <b>Server Manager – Add Roles and Features Wizard
 The following screenshot shows the Windows Server 2019 Domain Controller login screen, displaying the domain name MOHAMED. The prompt MOHAMED\Administrator confirms that the server has been successfully promoted to a domain controller and the Active Directory domain (mohamed.com) is operational.
 </p>
 <p align="center">
-  <img src="https://i.imgur.com/WYDdXxU.png" alt="Active Directory Installation" width="80%" height="80%">
-  <img src="https://i.imgur.com/fEyGyic.jpeg" alt="Active Directory Installation" width="80%" height="80%">
+  <img src="https://i.imgur.com/BSe3tJu.png"  width="80%" height="80%">
+  <img src="https://i.imgur.com/BIy88xP.jpeg" width="80%" height="80%">
 </p>
 
 <p>
@@ -40,7 +40,7 @@ The following screenshot shows the Windows Server 2019 Domain Controller login s
 This Screenshot displays the DHCP Management Console, where the IPv4 scope is defined (172.16.0.100–172.16.0.200).
 </p>
 <p align="center">
-  <img src="https://i.imgur.com/j5LPDwE.png" alt="Active Directory Installation" width="80%" height="80%">
+  <img src="https://i.imgur.com/7TmNGUC.png"  width="80%" height="80%">
 </p>
 
 <p>
@@ -50,7 +50,7 @@ It allows the server to route network traffic between multiple subnets or virtua
 This is crucial for enabling internal communication between the domain controller, clients, and possibly external networks.
 </p>
 <p align="center">
-  <img src="https://i.imgur.com/j5LPDwE.png" alt="Active Directory Installation" width="80%" height="80%">
+  <img src="https://i.imgur.com/oraOmzS.png"  width="80%" height="80%">
 </p>
 
 <p>
@@ -58,7 +58,7 @@ This is crucial for enabling internal communication between the domain controlle
 This PowerShell ISE script automates the creation of user accounts in Active Directory.
 </p>
 <p align="center">
-  <img src="https://i.imgur.com/xD0z22M.png" alt="Active Directory Installation" width="80%" height="80%">
+  <img src="https://i.imgur.com/7ZAwti5.png"  width="80%" height="80%">
 </p>
 
 <p>
@@ -66,5 +66,5 @@ This PowerShell ISE script automates the creation of user accounts in Active Dir
 This screenshot Shows a Windows 10 client that has successfully joined the domain (mohamed.com) and received its IP configuration via DHCP from the DC. The client’s IP (172.16.0.100), gateway (172.16.0.1), and DNS confirm domain connectivity — with internet access enabled through the server’s NAT routing.
 </p>
 <p align="center">
-  <img src="https://i.imgur.com/O2etD4j.png" alt="Active Directory Installation" width="80%" height="80%">
+  <img src="https://i.imgur.com/oEEyo6B.png"  width="80%" height="80%">
 </p>
